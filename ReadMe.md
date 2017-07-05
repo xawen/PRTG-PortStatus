@@ -1,4 +1,4 @@
-# PRTG-NetScaler
+# PRTG-PortStatus
 
 A PRTG script to monitor connection status of network switch ports.
 
