@@ -23,8 +23,8 @@ A PRTG script to monitor connection status of network switch ports.
 9) Set the following options on the sensor
 	- Name - Set a descriptive name
 	- EXE/Script - Choose the desired script
-	- Parameters - Enter: <Count> %host %snmpcommunity
-		- Note: Replace <Count> with the number of ports on the switch.
+	- Parameters - Enter: -Count- %host %snmpcommunity
+		- Note: Replace -Count- with the number of ports on the switch.
 10) Select continue
 
 ## Screenshots
