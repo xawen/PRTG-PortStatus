@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+  <ValueLookup id="prtg.networklookups.SNMP.portstatus" desiredValue="300" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="PaeValueLookup.xsd">
+    <Lookups>
+      <SingleInt state="Ok" value="1">
+        Up
+      </SingleInt>
+      <SingleInt state="Error" value="2">
+        Down
+      </SingleInt>
+      <SingleInt state="Warning" value="3">
+        Testing
+      </SingleInt>
+      <SingleInt state="Warning" value="4">
+        Unknown
+      </SingleInt>
+      <SingleInt state="Ok" value="5">
+        Dormant
+      </SingleInt>
+      <SingleInt state="Ok" value="6">
+        Not Present
+      </SingleInt>
+      <SingleInt state="Ok" value="10">
+        Admin Down
+      </SingleInt>
+    </Lookups>
+  </ValueLookup>
