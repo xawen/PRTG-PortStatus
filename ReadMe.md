@@ -2,6 +2,9 @@
 
 A PRTG script to monitor connection status of network switch ports.
 
+## Discussion
+[https://itrandomness.com/2018/02/switch-port-status-monitoring-with-prtg/](https://itrandomness.com/2018/02/switch-port-status-monitoring-with-prtg/)
+
 ## Included Scripts
 - Switch-PortStatus.ps1 - Monitor connection status of all ports on a switch.  Port will show OK/green if it is up or administratively down.  Port will show error/red if it is down or has errors.
 
